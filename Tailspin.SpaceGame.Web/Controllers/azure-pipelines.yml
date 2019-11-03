@@ -50,3 +50,8 @@ condition: succeeded()
 -task: DownloadBuildArtifacts@0
 displayname: DownloadBuildAtrifact
 branchname: https://dev.azure.com/Tailspin26/_apis/resources/Containers/74217?itemPath=drop%2FRelease%2FTailspin.SpaceGame.Web.zip
+variable: 
+  buildConfiguration: 'Relese'
+  wwwrootdir: 'Tailspin.SpaceGame.Web/wwwroot'
+  dotnetSdkVersion: '2.1.505'
+  
